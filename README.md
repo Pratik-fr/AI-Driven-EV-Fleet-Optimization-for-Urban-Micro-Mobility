@@ -59,7 +59,7 @@ graph TD
 
 ---
 
-## 🚦 Getting Started
+##  Getting Started
 
 ### 1. Clone & Setup
 ```bash
