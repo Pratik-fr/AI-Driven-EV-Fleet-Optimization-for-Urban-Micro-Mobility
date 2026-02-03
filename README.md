@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ⚡ Smart EV Fleet Optimization & Demand Forecasting System
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
@@ -91,3 +92,7 @@ streamlit run app.py
 
 ---
 *Designed for Yulu-Aligned Fleet Operations.*
+=======
+# AI-Driven-EV-Fleet-Optimization-for-Urban-Micro-Mobility
+AI-driven system for urban EV micro-mobility that forecasts ride demand, optimizes electric vehicle allocation using operations research, and monitors battery health with machine learning. Includes data analysis, optimization logic, and an interactive dashboard for decision support.
+>>>>>>> 6ab31f8649ceba4e1606dd2f01b05ae67bebdbe1
