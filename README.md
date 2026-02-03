@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# ⚡ Smart EV Fleet Optimization & Demand Forecasting System
+#  Smart EV Fleet Optimization & Demand Forecasting System
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B.svg)](https://streamlit.io/)
@@ -9,7 +9,7 @@ An end-to-end Data Science and Operations Research system designed for urban mic
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```mermaid
 graph TD
