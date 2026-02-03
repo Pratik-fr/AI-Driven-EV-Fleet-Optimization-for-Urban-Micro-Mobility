@@ -25,33 +25,33 @@ graph TD
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 
-### 1. 📈 Intelligent Demand Forecasting
+### 1.  Intelligent Demand Forecasting
 - **Models:** XGBoost Regressor with Time-series features (Lags, Rolling Means).
 - **Comparison:** Automated comparison against a persistence baseline.
 - **Goal:** Predict zone-wise demand for the next hour to trigger rebalancing.
 
-### 2. 🚚 Operations Research Allocation
+### 2.  Operations Research Allocation
 - **Algorithm:** **Hungarian Algorithm** (Linear Sum Assignment) via `scipy.optimize`.
 - **Logic:** Minimizes the "Total Rebalancing Distance" by matching available supply to predicted demand shortages.
 - **Impact:** Reduces operational costs and maximizes vehicle availability.
 
-### 3. 🔋 Predictive Battery Maintenance
+### 3.  Predictive Battery Maintenance
 - **Classification:** Random Forest model predicting "Risk Level" (Low, Medium, Critical).
 - **Actionable Insights:** Flags vehicles requiring immediate swaps before they become unavailable.
 
-### 4. 🤖 GenAI Analytics Assistant
+### 4.  GenAI Analytics Assistant
 - **Engine:** Powered by **Groq (Llama-3)**.
 - **RAG Implementation:** Injects computed real-time metrics (High demand zones, model accuracy, battery alerts) into the LLM prompt.
 - **Use Case:** Non-technical managers can ask "Why is Zone B low on bikes?" and get data-grounded answers.
 
-### 5. 🚀 Real-time Simulation Mode
+### 5. Real-time Simulation Mode
 - Includes a background simulator that streams "live" ride events into the system, allowing for a dynamic dashboard experience.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - **ML/DS:** Pandas, NumPy, Scikit-learn, XGBoost.
 - **Optimization:** Scipy (Linear Programming/Assignment).
 - **Frontend:** Streamlit, Plotly, Seaborn.
@@ -85,7 +85,7 @@ streamlit run app.py
 
 ---
 
-## 🎯 Impact on Business
+##  Impact on Business
 - **20% Reduction** in "OutOfStock" events via predictive rebalancing.
 - **Optimized Battery Lifecycle** by flagging critical units before deep discharge.
 - **Enhanced Decision Making** with natural language data interrogation.
