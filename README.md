@@ -3,7 +3,6 @@
 =======
 <<<<<<< HEAD
 #  Smart EV Fleet Optimization & Demand Forecasting System
->>>>>>> 6d53dc1acb008efb380a02beb9e10142ea339f91
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B.svg)](https://streamlit.io/)
