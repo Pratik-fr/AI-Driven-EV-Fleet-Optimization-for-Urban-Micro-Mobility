@@ -1,4 +1,4 @@
-# ⚡ Smart EV Fleet Optimization & Demand Forecasting System
+# Smart EV Fleet Optimization & Demand Forecasting System
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B.svg)](https://streamlit.io/)
@@ -8,7 +8,7 @@ An end-to-end Data Science and Operations Research system designed for urban mic
 
 ---
 
-##  System Architecture
+## System Architecture
 
 ```mermaid
 graph TD
@@ -24,7 +24,7 @@ graph TD
 
 ---
 
-##  Key Features
+## Key Features
 
 ### 1.  Intelligent Demand Forecasting
 - **Models:** XGBoost Regressor with Time-series features (Lags, Rolling Means).
@@ -50,7 +50,7 @@ graph TD
 
 ---
 
-##  Tech Stack
+## Tech Stack
 - **ML/DS:** Pandas, NumPy, Scikit-learn, XGBoost.
 - **Optimization:** Scipy (Linear Programming/Assignment).
 - **Frontend:** Streamlit, Plotly, Seaborn.
@@ -58,7 +58,7 @@ graph TD
 
 ---
 
-##  Getting Started
+## Getting Started
 
 ### 1. Clone & Setup
 ```bash
@@ -84,7 +84,7 @@ streamlit run app.py
 
 ---
 
-##  Impact on Business
+## Impact on Business
 - **20% Reduction** in "OutOfStock" events via predictive rebalancing.
 - **Optimized Battery Lifecycle** by flagging critical units before deep discharge.
 - **Enhanced Decision Making** with natural language data interrogation.
@@ -94,7 +94,7 @@ streamlit run app.py
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
 ### Deploying to Streamlit Community Cloud
 
