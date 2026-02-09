@@ -18,14 +18,28 @@ def plot_demand_heatmap(demand_df):
     """
     Plots a heatmap of demand by day of week and hour.
     """
+    # Create a copy to avoid modifying original dataframe
+    df = demand_df.copy()
+    
+    # Map integer day_of_week (0=Monday) to string names if needed
+    # Ensure day_of_week is integer before mapping
+    if pd.api.types.is_numeric_dtype(df['day_of_week']):
+         day_map = {0: 'Monday', 1: 'Tuesday', 2: 'Wednesday', 3: 'Thursday', 4: 'Friday', 5: 'Saturday', 6: 'Sunday'}
+         df['day_of_week'] = df['day_of_week'].map(day_map)
+         
     # Pivot for heatmap: Index=Day, Columns=Hour, Values=Demand
-    heatmap_data = demand_df.groupby(['day_of_week', 'hour'])['demand_count'].mean().unstack()
+    heatmap_data = df.groupby(['day_of_week', 'hour'])['demand_count'].mean().unstack(fill_value=0)
+    
     days_order = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+    
+    # Reindex to ensure all days are present and in order
     heatmap_data = heatmap_data.reindex(days_order)
     
     plt.figure(figsize=(12, 6))
-    sns.heatmap(heatmap_data, cmap='YlGnBu', annot=True, fmt=".1f")
-    plt.title("Demand Heatmap (Day vs Hour)")
+    sns.heatmap(heatmap_data, cmap='YlGnBu', annot=True, fmt=".1f", linewidths=.5)
+    plt.title("Average Demand Heatmap (Day vs Hour)")
+    plt.ylabel("Day of Week")
+    plt.xlabel("Hour of Day")
     return plt
 
 def plot_battery_status_distribution(telemetry_df):

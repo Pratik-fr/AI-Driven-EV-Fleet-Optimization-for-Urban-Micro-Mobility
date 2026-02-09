@@ -1,9 +1,4 @@
-<<<<<<< HEAD
 # ⚡ Smart EV Fleet Optimization & Demand Forecasting System
-=======
-<<<<<<< HEAD
-#  Smart EV Fleet Optimization & Demand Forecasting System
->>>>>>> 6d53dc1acb008efb380a02beb9e10142ea339f91
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B.svg)](https://streamlit.io/)
@@ -96,3 +91,28 @@ streamlit run app.py
 
 ---
 *Designed for Yulu-Aligned Fleet Operations.*
+
+---
+
+## 🚀 Deployment
+
+### Deploying to Streamlit Community Cloud
+
+1.  **Push to GitHub**: Ensure your project is pushed to a GitHub repository.
+2.  **Sign up/Login**: Go to [share.streamlit.io](https://share.streamlit.io/) and log in with your GitHub account.
+3.  **New App**: Click **"New app"**.
+4.  **Configuration**:
+    *   **Repository**: Select your repo (e.g., `AI-Driven-EV-Fleet-Optimization...`).
+    *   **Branch**: `main` (or your working branch).
+    *   **Main file path**: `app.py`.
+5.  **Secrets**:
+    *   Go to **Advanced settings** in the deployment screen.
+    *   Add your secrets in TOML format:
+        ```toml
+        GROQ_API_KEY = "your_actual_api_key_here"
+        ```
+6.  **Deploy**: Click **"Deploy!"**.
+
+Once deployed, your app will be live at a URL like:
+`https://yulu-ev-fleet-optimization-demo.streamlit.app/`
+
