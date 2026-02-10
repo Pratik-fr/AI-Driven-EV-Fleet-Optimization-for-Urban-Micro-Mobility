@@ -8,4 +8,4 @@ scipy
 streamlit
 plotly
 groq
-python-dotenv
+altair<5
