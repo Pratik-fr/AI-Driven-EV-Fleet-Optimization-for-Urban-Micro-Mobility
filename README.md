@@ -135,4 +135,6 @@ Ready to go live? Deploying to the cloud is easier than you think.
 
 Once the balloons fly, your app will be live for the world to see!
 
+[**🚀 Click Here to View Live Demo**](https://ai-driven-ev-fleet-optimization-for-urban-micro-mobility-dxfxm.streamlit.app/)
+
 
