@@ -5,7 +5,6 @@ xgboost
 matplotlib
 seaborn
 scipy
-streamlit
+streamlit>=1.40.0
 plotly
 groq
-altair<5
